@@ -32,26 +32,24 @@
     - Testes de APIs utilizando httptest, Gin e GoMock.
 
 2. Engenharia de Software
-2.1 Princípios e Boas Práticas
+- 2.1 Princípios e Boas Práticas
 
-- SOLID: Compreender e aplicar os 5 princípios de design de software.
-- Design Patterns: Padrões de projeto como Singleton, Factory, Observer, Strategy, Repository.
-- Arquitetura de Software:
-  - Arquitetura monolítica vs microservices.
-  - Arquitetura em camadas (Layers) e Design Orientado a Serviços (SOA).
-  - Event-Driven Architecture e CQRS.
-- Práticas Ágeis: Scrum, Kanban, princípios do Agile, Continuous Delivery (CD), Continuous Integration (CI).
-2.2 Engenharia de Requisitos e Análise de Sistemas
-
-Levantamento de Requisitos: Técnicas para identificar e documentar requisitos funcionais e não funcionais.
-Modelagem UML: Diagramas de casos de uso, classes, atividades e sequência.
-TDD (Test-Driven Development): Escrever testes antes de escrever o código.
-Refatoração de Código: Melhorias de legibilidade e performance sem alterar a funcionalidade.
-2.3 Ferramentas de Desenvolvimento e Versionamento
-
-Git: GitHub, GitLab, Bitbucket.
-CI/CD: Jenkins, GitHub Actions, GitLab CI, Docker (contêineres), Kubernetes.
-Monitoramento e Logging: Ferramentas como Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana).
+  - SOLID: Compreender e aplicar os 5 princípios de design de software.
+  - Design Patterns: Padrões de projeto como Singleton, Factory, Observer, Strategy, Repository.
+  - Arquitetura de Software:
+    - Arquitetura monolítica vs microservices.
+    - Arquitetura em camadas (Layers) e Design Orientado a Serviços (SOA).
+    - Event-Driven Architecture e CQRS.
+  - Práticas Ágeis: Scrum, Kanban, princípios do Agile, Continuous Delivery (CD), Continuous Integration (CI).
+- 2.2 Engenharia de Requisitos e Análise de Sistemas
+  Levantamento de Requisitos: Técnicas para identificar e documentar requisitos funcionais e não funcionais.
+  Modelagem UML: Diagramas de casos de uso, classes, atividades e sequência.
+  TDD (Test-Driven Development): Escrever testes antes de escrever o código.
+  Refatoração de Código: Melhorias de legibilidade e performance sem alterar a funcionalidade.
+- 2.3 Ferramentas de Desenvolvimento e Versionamento
+  Git: GitHub, GitLab, Bitbucket.
+  CI/CD: Jenkins, GitHub Actions, GitLab CI, Docker (contêineres), Kubernetes.
+  Monitoramento e Logging: Ferramentas como Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana).
 
 3. Ciência da Computação
 3.1 Algoritmos e Estruturas de Dados
