@@ -1,38 +1,35 @@
 # Grand Roadmap
 
 1. Fundamentos de Go (Golang)
-1.1 Introdução a Go
-
-- O que é Go: História, filosofia da linguagem (simplicidade, performance, concorrência).
-- Configuração do ambiente: Instalando Go, configuração de IDE (Visual Studio Code, GoLand), gerenciamento de dependências com go mod.
-- Compilação e execução de programas: Comandos go build, go run, go test.
-- Sintaxe Básica: Tipos de dados, variáveis, operadores, controle de fluxo (if, for, switch).
-- Funções: Definição, parâmetros, retornos múltiplos, funções anônimas.
-1.2 Tipos de Dados e Estruturas
-
-- Tipos Primitivos: Inteiros, floats, booleans, strings, arrays e slices.
-- Structs: Como usar structs para modelar dados complexos.
-- Interfaces: Definição e implementação de interfaces, polimorfismo em Go.
-- Mapas: Uso de map para estrutura de dados chave-valor.
-1.3 Concurrency e Goroutines
-
-- Concorrência vs Paralelismo: Entendimento da diferença.
-- Goroutines: Como lançar e gerenciar goroutines.
-- Channels: Comunicação entre goroutines, buffers de channels.
-- Select statement: Como trabalhar com múltiplos canais.
-- Sync Package: Mutexes, WaitGroups e outras ferramentas de sincronização.
-1.4 Pacotes e Módulos
-
-- Pacotes padrão: fmt, net/http, os, time, log, math, strings, encoding/json.
-- Módulos: Gerenciamento de dependências com go mod e go get.
-- Testes: Escrever testes com o pacote testing, criar benchmarks, testify para asserções.
-1.5 Frameworks de Go
-
-- Gin: Framework web para desenvolvimento de APIs RESTful em Go.
-  - Como usar o Gin para criar rotas, middlewares, e fazer validação de dados.
-  - Integração com banco de dados usando GORM (ORM para Go).
-  - Criação de APIs RESTful com autenticação (JWT, OAuth).
-  - Testes de APIs utilizando httptest, Gin e GoMock.
+  1.1 Introdução a Go
+  
+  - O que é Go: História, filosofia da linguagem (simplicidade, performance, concorrência).
+  - Configuração do ambiente: Instalando Go, configuração de IDE (Visual Studio Code, GoLand), gerenciamento de dependências com go mod.
+  - Compilação e execução de programas: Comandos go build, go run, go test.
+  - Sintaxe Básica: Tipos de dados, variáveis, operadores, controle de fluxo (if, for, switch).
+  - Funções: Definição, parâmetros, retornos múltiplos, funções anônimas.
+  1.2 Tipos de Dados e Estruturas
+  
+  - Tipos Primitivos: Inteiros, floats, booleans, strings, arrays e slices.
+  - Structs: Como usar structs para modelar dados complexos.
+  - Interfaces: Definição e implementação de interfaces, polimorfismo em Go.
+  - Mapas: Uso de map para estrutura de dados chave-valor.
+  1.3 Concurrency e Goroutines
+  - Concorrência vs Paralelismo: Entendimento da diferença.
+  - Goroutines: Como lançar e gerenciar goroutines.
+  - Channels: Comunicação entre goroutines, buffers de channels.
+  - Select statement: Como trabalhar com múltiplos canais.
+  - Sync Package: Mutexes, WaitGroups e outras ferramentas de sincronização.
+  1.4 Pacotes e Módulos
+  - Pacotes padrão: fmt, net/http, os, time, log, math, strings, encoding/json.
+  - Módulos: Gerenciamento de dependências com go mod e go get.
+  - Testes: Escrever testes com o pacote testing, criar benchmarks, testify para asserções.
+  1.5 Frameworks de Go
+  - Gin: Framework web para desenvolvimento de APIs RESTful em Go.
+    - Como usar o Gin para criar rotas, middlewares, e fazer validação de dados.
+    - Integração com banco de dados usando GORM (ORM para Go).
+    - Criação de APIs RESTful com autenticação (JWT, OAuth).
+    - Testes de APIs utilizando httptest, Gin e GoMock.
 
 2. Engenharia de Software
 2.1 Princípios e Boas Práticas
