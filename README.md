@@ -1,5 +1,27 @@
 # Grand Roadmap
 
+Roadmap de estudos que montei e venho seguindo em meu estudos para Golang.
+
+Com adições de:
+
+- Back-end: Desenvolvendo serviços seguros, escaláveis e de alta performance com Go.
+- Design Patterns e Boas práticas de Desenvolvimento de Software.
+- Análise de Sistemas e Levantamento de Requisitos.
+- Conhecimentos importantes de Ciência da Computação e Engenharia de Software:
+  - Algoritmos e Estruturas de Dados.
+  - Teoria dos Grafos e Computação Paralela.
+  - Banco de Dados e Sistemas Operacionais.
+  - Redes de Computadores e Segurança da Informação.
+- Infraestrutura e DevOps: Containers, Kubernetes, CI/CD, Cloud Computing.
+- Diferentes tipos de serviços e aplicações:
+  - APIs RESTful e GraphQL.
+  - Microserviços e Comunicação Assíncrona.
+  - Streaming de Dados em Tempo Real: WebSockets, Kafka, WebRTC.
+
+Adicionados por preferência pessoal:
+
+- Matemática e Física aplicadas à Computação.
+
 ## 1. Fundamentos de Go (Golang)
 
 ### 1.1 Introdução a Go
