@@ -1,14 +1,14 @@
 package t1fundamentos
 
-func  TestUserController() {
-	var userController IUserController = &UserController{}
-	println(userController.Get())
-	println(userController.Post())
-	println(userController.Put())
-	println(userController.Delete())
+func  TestIController() {
+	var IController IController = &UserController{}
+	println(IController.Get())
+	println(IController.Post())
+	println(IController.Put())
+	println(IController.Delete())
 }
 
-type IUserController interface {
+type IController interface {
 	Get() (string, error)
 	Post() (string, error)
 	Put() (string, error)
