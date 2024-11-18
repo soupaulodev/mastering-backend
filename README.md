@@ -1,5 +1,7 @@
 # Grand Roadmap
 
+![Build Status](https://github.com/soupaulodev/mastering-backend-with-golang/actions/workflows/build.yml/badge.svg)
+
 Roadmap de estudos que montei e venho seguindo em meu estudos para Golang.
 
 Com adições de:
