@@ -161,11 +161,17 @@ func EstruturasDeDados() {
 	fmt.Println("Slices")
 	var s []int
 	fmt.Println(s)
+	// Implicitamente
+	s2 := make([]int, 5)
+	fmt.Println(s2)
 
 	// Maps - Coleção de pares chave-valor
 	fmt.Println("Maps")
 	var m map[string]int
 	fmt.Println(m)
+	// Implicitamente
+	m2 := make(map[string]int)
+	fmt.Println(m2)
 
 	// Structs - Agrupamento de dados em uma estrutura personalizada.
 	fmt.Println("Structs")
