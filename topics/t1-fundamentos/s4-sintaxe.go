@@ -260,9 +260,10 @@ func loops() {
 // Visibilidade
 // - Inicia com letra maiúscula: Pública
 // - Inicia com letra minúscula: Privada
-var VariavelVisivelExt int = 1
+var variavelVisivelExt int = 1
 var variavelNaoVisivelExt int = 1
 func funVisivel() {
+	fmt.Println(variavelVisivelExt)
 	fmt.Println(variavelNaoVisivelExt) // Utilizando apenas para evitar erro de compilação
 	fmt.Println("Função visível externamente")
 }

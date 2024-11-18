@@ -1,6 +1,6 @@
 package t1fundamentos
 
-type Person struct {
+type person struct {
 	Name string
 	Age  int
 	sayHello func()
@@ -8,7 +8,7 @@ type Person struct {
 
 func TestStruct() {
 
-	var p Person
+	var p person
 	p.Name = "John"
 	p.Age = 25
 	p.sayHello = func() {
