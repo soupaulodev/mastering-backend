@@ -6,27 +6,27 @@ import (
 
 func TestSintaxe() {
 	fmt.Println("\n\nSintaxe")
-	TiposPrimitivos()
-	Variaveis()
-	Operadores()
-	EstruturasDeDados()
-	ControleDeFluxo()
-	Loops()
-	FunVisivel()
+	tiposPrimitivos()
+	variaveis()
+	operadores()
+	estruturasDeDados()
+	controleDeFluxo()
+	loops()
+	funVisivel()
 	funNaoVisivel()
-	FuncaoSemParametroERetorno()
-	FuncaoComParametroEUmRetorno(1)
-	FuncaoComMultiplosParametrosERetorno(1, 2, 3.0)
-	FuncIgnorandoValoresRetornadosNaChamada()
-	FuncaoComParametrosVariadicos(1, 2, 3, 4, 5)
-	FuncaoComFuncaoComoParametro(FuncaoAnonima)
-	FuncaoAnonima()
-	FuncaoRetornandoFuncao()()
-	FuncaoAnonimaExecutadaAposDeclaracao()
-	FuncoesClosure()
+	funcaoSemParametroERetorno()
+	funcaoComParametroEUmRetorno(1)
+	funcaoComMultiplosParametrosERetorno(1, 2, 3.0)
+	funcIgnorandoValoresRetornadosNaChamada()
+	funcaoComParametrosVariadicos(1, 2, 3, 4, 5)
+	funcaoComFuncaoComoParametro(funcaoAnonima)
+	funcaoAnonima()
+	funcaoRetornandoFuncao()()
+	funcaoAnonimaExecutadaAposDeclaracao()
+	funcoesClosure()
 }
 
-func TiposPrimitivos() {
+func tiposPrimitivos() {
 	fmt.Println("Tipos Primitivos")
 
 	// inteiros
@@ -72,7 +72,7 @@ func TiposPrimitivos() {
 
 // Declaração de variavel explicita
 var veglobal int = 1
-func Variaveis() {
+func variaveis() {
 	fmt.Println("Variáveis")
 	// Declaração de variável local explicita
 	var velocal int = 1
@@ -105,8 +105,8 @@ func Variaveis() {
 	// bool: false
 }
 
-func Operadores() {
-	fmt.Println("Operadores")
+func operadores() {
+	fmt.Println("operadores")
 
 	// Aritméticos
 	fmt.Println("Aritméticos")
@@ -149,7 +149,7 @@ func Operadores() {
 	fmt.Println(f >> 1)
 }
 
-func EstruturasDeDados() {
+func estruturasDeDados() {
 	fmt.Println("Estruturas de Dados")
 
 	// Arrays - Coleção fixa de elementos do mesmo tipo
@@ -183,7 +183,7 @@ func EstruturasDeDados() {
 	fmt.Println(p)
 }
 
-func ControleDeFluxo() {
+func controleDeFluxo() {
 	fmt.Println("Controle de Fluxo")
 
 	// If
@@ -210,7 +210,7 @@ func ControleDeFluxo() {
 	}
 }
 
-func Loops() {
+func loops() {
 	// For
 	fmt.Println("For")
 	for i := 0; i < 5; i++ {
@@ -262,7 +262,7 @@ func Loops() {
 // - Inicia com letra minúscula: Privada
 var VariavelVisivelExt int = 1
 var variavelNaoVisivelExt int = 1
-func FunVisivel() {
+func funVisivel() {
 	fmt.Println(variavelNaoVisivelExt) // Utilizando apenas para evitar erro de compilação
 	fmt.Println("Função visível externamente")
 }
@@ -270,56 +270,56 @@ func funNaoVisivel() {
 	fmt.Println("Função não visível externamente")
 }
 
-func FuncaoSemParametroERetorno() {
+func funcaoSemParametroERetorno() {
 	fmt.Println("Função sem parâmetro e retorno")
 }
 
-func FuncaoComParametroEUmRetorno(a int) int {
+func funcaoComParametroEUmRetorno(a int) int {
 	fmt.Println("Função com parâmetro e retorno")
 	return a
 }
 
-func FuncaoComMultiplosParametrosERetorno(a, b int, c float32) (int, int, float32) {
+func funcaoComMultiplosParametrosERetorno(a, b int, c float32) (int, int, float32) {
 	fmt.Println("Função com múltiplos parâmetros e retorno")
 	return a + b, a - b, c
 }
 
-func FuncIgnorandoValoresRetornadosNaChamada() {
+func funcIgnorandoValoresRetornadosNaChamada() {
 	fmt.Println("Função ignorando valores retornados na chamada")
-	_, b, _ := FuncaoComMultiplosParametrosERetorno(1, 2, 3.0)
+	_, b, _ := funcaoComMultiplosParametrosERetorno(1, 2, 3.0)
 	fmt.Println(b)
 }
 
-func FuncaoComParametrosVariadicos(a ...int) {
+func funcaoComParametrosVariadicos(a ...int) {
 	fmt.Println("Função com parâmetros variádicos")
 	for i, v := range a {
 		fmt.Println(i, v)
 	}
 }
 
-func FuncaoComFuncaoComoParametro(f func()) {
+func funcaoComFuncaoComoParametro(f func()) {
 	fmt.Println("Função com função como parâmetro")
 	f()
 }
 
-var FuncaoAnonima = func() {
+var funcaoAnonima = func() {
 	fmt.Println("Função anônima")
 }
 
-func FuncaoRetornandoFuncao() func() {
+func funcaoRetornandoFuncao() func() {
 	fmt.Println("Função anônima")
 	return func() {
 		fmt.Println("Função anônima executada")
 	}
 }
 
-func FuncaoAnonimaExecutadaAposDeclaracao() {
+func funcaoAnonimaExecutadaAposDeclaracao() {
 	func () {
 		fmt.Println("Função anônima executada após declaração")
 	}()
 }
 
-func FuncoesClosure() {
+func funcoesClosure() {
 	fmt.Println("Funções Closure")
 	var a int = 1
 	var f = func() {
